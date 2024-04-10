@@ -14,7 +14,7 @@ https://www.ibm.com/topics/zero-day
 ### Kali Linux
 Kali Linux is an open-source package with a set of tools for hacking, checking for vulnerabilities, stress testing, and more.  It comes with over 600 tools for various aspects of cybersecurity.  There are comprehensive tutorials and training materials to help users learn how to utilize all of the tools and there are even certification programs available.  There is a real-world simulation for professionals to gain practical experience in a controlled environment. 
 
-Tools that are included in Kali Linux:
+Some of the tools that are included in Kali Linux:
 | Tool | Description |
 | :----: | :----: |
 | Nmap | Network scanning tool used for discovering hosts and services|
