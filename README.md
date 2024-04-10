@@ -2,7 +2,8 @@
 
 ### Buffer Overflow
 A buffer overflow occurs when a program writes data beyond the bounds of a buffer.  This is usually in languages like C or C++ where array bounds checking is not performed by default.  For example, the gets() function in C reads the input into a fixed-size buffer without checking the size of the input.  If the input is larger than the buffer size, it overwrites the next memory regions and could corrupt the data or cause the program to crash.  This could be used maliciously to cause denial of service attacks or privilege escalation.  Some ways to prevent this is to check for input size and make sure that it does not exceed the size of the buffer like by using safe string functions such as strcpy_s().  This seems like a simple step and many languages check this automatically at compile time.  
- 
+ ![Screenshot 2024-04-09 110809](https://github.com/TryingToBeSmart/CST-321-Security/assets/108645257/4740633b-72b4-44ca-b7d8-521045a599f4)
+
 Tanenbaum, A. S., and Bos, H. (2023). Modern operating systems (5th ed.). Pearson. ISBN-13: 9780137618842
 
 ### Zero-Day Exploit
