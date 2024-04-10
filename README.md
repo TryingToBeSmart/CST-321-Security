@@ -40,3 +40,14 @@ Checks the strength of a password using regex to run 3 tests:
 - At least on special character: ```=~ [@#$%*+=!]```
 
 ![Password Checker screenshot](./screenshot/passwordCheck.png)
+
+### Bash Shell Add and Remove Users From Text File
+Bash script to manage users. Takes 3 args: an input filename of users, a group name, and an operation flag. The input will be a text file with a list of users to add to or remove from the system. Each line contains a user ID and encrypted password separated by a space character. The passwords are encrypted using openssl with the command line.
+
+Users being added:
+![Added users screenshot](./screenshot/addUsers.png)
+![Proof users added screenshot](./screenshot/addProof.png)
+
+Users begin removed:
+![Remove users screenshot](./screenshot/removeUsers.png)
+![Removed users proof screenshot](./screenshot/removeProof.png)

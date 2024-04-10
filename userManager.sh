@@ -57,6 +57,6 @@ remove_users() {
 # Call the correct function based on operation_flag
 if [ "$operation_flag" == "-a" ]; then
     add_users
-elif [ "$operataion_flag" == "-r" ]; then
+elif [ "$operation_flag" == "-r" ]; then
     remove_users
 fi
