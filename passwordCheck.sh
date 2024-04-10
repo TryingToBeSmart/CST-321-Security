@@ -18,7 +18,7 @@ password_check(){
     fi
 
     # Check for non-alphabetic character: @, #, $, %, *, +, =, or !
-    if ! [[ $password =~ [@#$%*+=]]]; then
+    if ! [[ $password =~ [@#$%*+=!] ]]; then
         echo "Password must contain at least 1 special character (@, #, $, %, *, +, =, or !)"
         passwordFailed=true
     fi
@@ -37,6 +37,6 @@ password_check(){
 if [ $# -ne 1 ]; then
     echo "Enter password"
     exit 1
-if
+fi
 
 password_check "$1"

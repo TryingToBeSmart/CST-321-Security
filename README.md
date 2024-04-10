@@ -32,3 +32,11 @@ Some of the tools that are included in Kali Linux:
 | Dex2Jar | Convert APK file to JAR file in order to view the source code |
 
 https://www.tutorialspoint.com/kali_linux/index.htm
+
+### Bash Shell Password Checker
+Checks the strength of a password using regex to run 3 tests:
+- Minimum length of 8 characters: ```-lt 8```
+- At least one number: ```=~ [0-9]```
+- At least on special character: ```=~ [@#$%*+=!]```
+
+![Password Checker screenshot](./screenshot/passwordCheck.png)
