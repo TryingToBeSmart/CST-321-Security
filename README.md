@@ -35,7 +35,7 @@ Some of the tools that are included in Kali Linux:
 https://www.tutorialspoint.com/kali_linux/index.htm
 
 ### Bash Shell Password Checker
-[PasswordChecker.sh program](./passwordChecker.sh) checks the strength of a password using regex to run 3 tests:
+[PasswordCheck.sh program](./passwordCheck.sh) checks the strength of a password using regex to run 3 tests:
 - Minimum length of 8 characters: ```-lt 8```
 - At least one number: ```=~ [0-9]```
 - At least on special character: ```=~ [@#$%*+=!]```
@@ -43,7 +43,7 @@ https://www.tutorialspoint.com/kali_linux/index.htm
 ![Password Checker screenshot](./screenshot/passwordCheck.png)
 
 ### Bash Shell Add and Remove Users From Text File
-[ManageUsers.sh program](./manageUsers.sh) is a bash script to manage users. Takes 3 args: an input filename of users, a group name, and an operation flag. The input will be a text file with a list of users to add to or remove from the system. Each line contains a user ID and encrypted password separated by a space character. The passwords are encrypted using openssl with the command line.
+[userManager.sh program](./userManager.sh) is a bash script to manage users. Takes 3 args: an input filename of users, a group name, and an operation flag. The input will be a text file with a list of users to add to or remove from the system. Each line contains a user ID and encrypted password separated by a space character. The passwords are encrypted using openssl with the command line.
 
 Users being added:
 ![Added users screenshot](./screenshot/addUsers.png)
